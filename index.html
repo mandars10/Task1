@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo-container">
+          <img src="Logo.png" class="logo" />
+        </div>
+        <div class="nav-links-container">
+          <a href="#About" class="nav-links">About</a> |
+          <a href="#Skills-Projects" class="nav-links">Skills</a> |
+          <a href="#Skills-Projects" class="nav-links">Projects</a> |
+          <a href="#Contact" class="nav-links">Contact</a>
+          <!-- <a href="#about" class="nav-links">About</a>  -->
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="about" id="About">
+        <div class="about-info">
+          <h1>Mandar Sutar</h1>
+          <b>Web Devleoper</b>
+          <p id="about-content">
+            I am a student pursuing a career in Web Development 🌐 and Java
+            Development 💻. I’m passionate about building dynamic, user-friendly
+            applications and have experience with front-end 🎨 and back-end ⚙️
+            technologies like HTML, CSS, JavaScript, React, and Java. My strong
+            foundation in Data Structures & Algorithms (DSA) 🔍 helps me solve
+            complex problems and write efficient code. I am eager to learn,
+            grow, and contribute to real-world projects 🚀. I look forward to
+            collaborating with others and expanding my skills to make an impact
+            in the tech industry.
+          </p>
+          <br />
+          <div class="button-container">
+            <button class="about-button" onclick="scrollToSection('Contact')">
+              CONTACT ME
+            </button>
+            <button class="about-button" onclick="openPDF()">RESUME</button>
+          </div>
+        </div>
+        <div class="photo-container">
+          <img src="./Photo.png" class="photo" />
+        </div>
+      </div>
+    </main>
+    <section class="skills-projects-section" id="Skills-Projects">
+      <div class="skills-section" id="skills">
+        <div class="skills-container">
+          <h2 class="skills-title">My Skills</h2>
+          <div class="skills-list">
+            <div class="skill-card">
+              <span class="skill-icon"
+                >🌐 <span class="skill-name">HTML</span></span
+              >
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"
+                >🎨 <span class="skill-name">CSS</span>
+              </span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"
+                >｡🇯‌🇸‌ <span class="skill-name">JavaScript</span></span
+              >
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"
+                >⚛️ <span class="skill-name">React</span></span
+              >
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"
+                >♨️ <span class="skill-name">Java</span></span
+              >
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"
+                >🛢️ <span class="skill-name">MySQL</span></span
+              >
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"
+                >👨‍💻 <span class="skill-name">DSA</span></span
+              >
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"
+                >😺 <span class="skill-name">Git-GitHub</span></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projects-section" id="projects">
+        <div class="projects-container">
+          <h2 class="projects-title">My Projects</h2>
+          <div class="projects-list">
+            <div class="project-card">
+              <h3>Orphanage Agile - Standalone Orphanage Management System</h3>
+              <p>
+                Developed a comprehensive orphanage management system using Java
+                and NetBeans, with a MySQL backend. This application simplifies
+                operations such as managing resident details, donations, staff,
+                and reporting. Designed to ensure data integrity, security, and
+                ease of access for orphanage administrators, enhancing
+                operational efficiency.
+              </p>
+              <a
+                href="https://www.linkedin.com/posts/mandar-sutar-055120286_java-netbeans-mysql-activity-7263107094613016577-Y12Z?utm_source=share&utm_medium=member_desktop"
+                >View Project</a
+              >
+            </div>
+            <!-- <div class="project-card">
+              <h3>Orphanage Agile - Standalone Orphanage Management System</h3>
+              <p>Developed a comprehensive orphanage management system using Java and NetBeans, with a MySQL backend. This application simplifies operations such as managing resident details, donations, staff, and reporting. Designed to ensure data integrity, security, and ease of access for orphanage administrators, enhancing operational efficiency.</p>
+                <a href="https://project2.com" target="_blank" rel="noopener noreferrer">View Project</a>
+              </div>
+              <div class="project-card">
+              <h3>Orphanage Agile - Standalone Orphanage Management System</h3>
+              <p>Developed a comprehensive orphanage management system using Java and NetBeans, with a MySQL backend. This application simplifies operations such as managing resident details, donations, staff, and reporting. Designed to ensure data integrity, security, and ease of access for orphanage administrators, enhancing operational efficiency.</p>
+                <a href="https://project3.com" target="_blank" rel="noopener noreferrer">View Project</a>
+              </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="Contact">
+      <p class="contact-heading">GET IN TOUCH</p>
+      <br />
+      <div class="contact-container">
+        <span class="contact-item">
+          <img
+            class="contact-icon"
+            src="https://static.vecteezy.com/system/resources/thumbnails/018/726/054/small/accept-phone-icon-social-icon-set-png.png"
+          />
+          <p class="contact-info">Mob : +91 9322353627</p>
+        </span>
+        <span class="contact-item">
+          <img
+            class="contact-icon"
+            src="https://i.pinimg.com/564x/c7/6b/1b/c76b1b21a3cac4ab1c5de4c11938429c.jpg"
+          />
+          <p class="contact-info">Email : mandarsutar1976@gmail.com</p>
+        </span>
+        <span class="contact-item">
+          <img
+            class="contact-icon"
+            src="https://i0.wp.com/openvisualfx.com/wp-content/uploads/2019/10/linkedin-icon-logo-png-transparent.png?resize=1200%2C1200&ssl=1&w=640"
+          />
+          <p class="contact-info">LinkedIn : Mandar Sutar</p>
+        </span>
+      </div>
+    </section>
+    <br />
+    <br />
+    <footer>
+      <p>&copy; <span id="year"></span>Mandar Sutar. All rights reserved.</p>
+      <p>
+        Designed & Built by
+        <a href="#about" target="_blank" rel="noopener">Mandar Sutar</a>
+      </p>
+    </footer>
+    <script>
+      function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+      function openPDF() {
+        window.open("RESUME.pdf", "_blank");
+      }
+    </script>
+  </body>
+</html>
